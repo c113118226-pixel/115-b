@@ -42,6 +42,8 @@ gantt
     期末總結與簡報報告準備  :c2, 2026-12-15, 2026-12-21
 ```
 
+
+```mermaid
 flowchart TD
     T1["1. 專案規劃與分工<br/>(10/01 - 10/07)"] --> T2["2. 需求收集與功能分析<br/>(10/08 - 10/17)"]
     T2 --> T3["3. 劃出使用案例圖與 FDD<br/>(10/18 - 10/27)"]
@@ -62,3 +64,4 @@ flowchart TD
     style T6 fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
     style T8 fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
     style T9 fill:#e1f5fe,stroke:#0288d1,stroke-width:2px
+```
