@@ -43,7 +43,7 @@ graph TD
 ## 3. 使用案例圖 
 ```mermaid
 flowchart LR
-    subgraph 系統邊界：線上德州撲克平台
+    subgraph SystemBoundary[線上德州撲克平台]
         UC1((UC1: 進行牌局對戰))
         UC2((UC2: 查看對局歷史記錄))
         UC3((UC3: 查看策略分析報告))
